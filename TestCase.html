@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Case Details</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header-bar">
+        <h1>Test Case Execution Results</h1>
+        <div>
+            <label for="refreshInterval">Page Refresh:</label>
+            <select id="refreshInterval" onchange="setRefresh(this.value)">
+                <option value="1">1 sec</option>
+                <option value="2">2 sec</option>
+                <option value="5" selected>5 sec</option>
+                <option value="10">10 sec</option>
+                <option value="15">15 sec</option>
+                <option value="30">30 sec</option>
+                <option value="60">60 sec</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="test-case-summary">
+	 <h3>TC Summary</h3>
+	
+       <table id="testCaseDetails">
+<thead>          
+		  <tr>
+                <th>TCName</th>
+                <th>Total Steps</th>
+                <th>Passed</th>
+                <th>Failed</th>
+                <th>StartTime</th>
+                <th>EndTime</th>
+                <th>Status</th>
+            </tr>
+		</thead>	
+						<tbody>
+			</tbody>
+        </table>
+    </div>
+
+    <div class="main-content">
+        <div class="image-section">
+            <img src="ScreenShot.jpeg" alt="Test Case Image">
+            <div id="currentStepDetails">
+               <table id="currentStepDetails">
+            <tr>
+                <th>Step Status</th>
+                <td id="stepStatus">[Step Status]</td>
+            </tr>
+            <tr>
+                <th>Current Step</th>
+                <td id="currentStep">[Current Step]</td>
+            </tr>
+        
+		</table>
+            </div>
+        </div>
+        <div class="details-section">
+
+		<table id="stepDetails">
+        <thead>
+            <tr>
+                <th>Step No</th>
+                <th>Step Description</th>
+                <th>Status</th>
+                <th>StartTime</th>
+                <th>EndTime</th>
+                <th>Duration</th>
+            </tr>
+
+        </thead>
+		
+					<tbody>
+			</tbody>
+    </table>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

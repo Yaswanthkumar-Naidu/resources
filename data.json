@@ -1,0 +1,39 @@
+{
+    "testCaseStats": {
+    	"total":11,
+        "passed": 10,
+        "failed": 5,
+        "pending": 3,
+        "skipped": 2
+    },
+    "modules": [
+        {"name": "Module1", "total":6,"passed": 5, "failed": 3, "pending": 2, "skipped": 1},
+        {"name": "Module2", "total":14,"passed": 8, "failed": 2, "pending": 1, "skipped": 3}
+    ],
+    "browsers": [
+        {"name": "Chrome", "passed": 7, "failed": 3, "pending": 2, "skipped": 1},
+        {"name": "Firefox", "passed": 6, "failed": 4, "pending": 1, "skipped": 2}
+    ],
+    "testCases": [
+    {"testCaseName": "TC001", "module": "Module1", "browser": "Chrome", "status": "Passed"},
+	{"testCaseName": "TC002", "module": "Module1", "browser": "Firefox", "status": "Failed"},
+    {"testCaseName": "TC003", "module": "Module2", "browser": "Chrome", "status": "Pending"},
+    {"testCaseName": "TC004", "module": "Module2", "browser": "Firefox", "status": "Skipped"},
+    {"testCaseName": "TC005", "module": "Module3", "browser": "Safari", "status": "Passed"},
+    {"testCaseName": "TC006", "module": "Module1", "browser": "Chrome", "status": "Failed"},
+    {"testCaseName": "TC007", "module": "Module3", "browser": "Firefox", "status": "Passed"},
+    {"testCaseName": "TC008", "module": "Module2", "browser": "Chrome", "status": "Skipped"},
+    {"testCaseName": "TC009", "module": "Module1", "browser": "Safari", "status": "Pending"},
+    {"testCaseName": "TC010", "module": "Module3", "browser": "Firefox", "status": "Failed"},
+    {"testCaseName": "TC011", "module": "Module2", "browser": "Chrome", "status": "Passed"},
+    {"testCaseName": "TC012", "module": "Module1", "browser": "Safari", "status": "Skipped"},
+    {"testCaseName": "TC013", "module": "Module3", "browser": "Firefox", "status": "Pending"},
+    {"testCaseName": "TC014", "module": "Module2", "browser": "Chrome", "status": "Failed"},
+    {"testCaseName": "TC015", "module": "Module1", "browser": "Safari", "status": "Passed"},
+    {"testCaseName": "TC016", "module": "Module3", "browser": "Firefox", "status": "Skipped"},
+    {"testCaseName": "TC017", "module": "Module2", "browser": "Chrome", "status": "Pending"},
+    {"testCaseName": "TC018", "module": "Module1", "browser": "Safari", "status": "Failed"},
+    {"testCaseName": "TC019", "module": "Module3", "browser": "Firefox", "status": "Passed"},
+	{"testCaseName": "TC020", "module": "Module2", "browser": "Firefox", "status": "Failed"}
+    ]
+}

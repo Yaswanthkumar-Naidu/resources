@@ -1,0 +1,132 @@
+{
+    "testCases": [
+        {
+            "testCaseName": "TC001",
+            "totalSteps": 5,
+            "passed": 3,
+            "failed": 1,
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:20:00",
+            "status": "Completed"
+        }
+    ],
+    "testSteps": [
+        {
+            "stepNo": 1,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 2,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 3,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 4,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 5,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 6,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 7,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 8,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 9,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 10,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 1,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 12,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+		{
+            "stepNo": 13,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        },
+        {
+            "stepNo": 14,
+            "description": "Login to the application",
+            "status": "Passed",
+            "startTime": "2023-03-01T10:00:00",
+            "endTime": "2023-03-01T10:05:00",
+            "duration": "2023-03-01T10:05:00"
+        }
+
+    ],
+    "currentStepData": {
+        "currentStep": "Verify user dashboard",
+        "status": "In Progress"
+    }
+}

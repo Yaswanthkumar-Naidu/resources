@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-bar {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bar h1 {
+    font-size: 1.2em;
+}
+
+.header-bar label, .header-bar select {
+    font-size: 1em;
+}
+
+.charts-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35vh;
+    margin-top: 20px;
+	    margin-bottom: 15px; /* Increase bottom margin */
+
+}
+
+.chart-container h2 {
+    margin-bottom: 10px;
+}
+
+#refreshInterval {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.chart-container {
+    height: 45vh;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-container canvas {
+    width: 100%;
+    height: 80%;
+    max-height: 200px;
+}
+
+.pie-chart-container {
+    width: 20%;
+}
+
+.module-chart-container {
+    width: 50%;
+}
+
+.browser-chart-container {
+    width: 30%;
+}
+
+.test-case-execution, .module-execution {
+    display: flex;
+    flex-direction: column;
+    width: 59%;
+    margin-top: 20px;
+    margin-left: 1px;
+	max-height: 290px; /* Adjust the height as needed */
+    overflow-y: auto; /* Adds a vertical scrollbar when needed */
+}
+
+.module-execution {
+    width: 39%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+	height:40px
+}
+
+.dropdowns select {
+    margin-left: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+	    table-layout: fixed; /* Ensures consistent column widths */
+
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table tbody {
+    display: block;
+    max-height: auto;
+    overflow-y: visible;
+}
+
+table thead, table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.execution-sections {
+    display: flex;
+    justify-content: space-between;
+	    margin-top: 15px; /* Increase top margin */
+
+}
+
+.test-case-execution, .module-execution {
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.test-case-execution {
+    width: 60%;
+}
+
+.module-execution {
+    width: 40%;
+}
+
+#testCaseTable th:nth-child(1), #testCaseTable td:nth-child(1) {
+    width: 50%;
+	    box-sizing: border-box;
+
+}
+
+#testCaseTable th:nth-child(2), #testCaseTable td:nth-child(2) {
+    width: 25%;
+	    box-sizing: border-box;
+
+}
+
+	#testCaseTable th:nth-child(3), #testCaseTable td:nth-child(3),
+#testCaseTable th:nth-child(4), #testCaseTable td:nth-child(4) {
+    width: 12.5%; /* Adjust as needed */
+	    box-sizing: border-box;
+
+}
+/* Style for dropdowns */
+.dropdowns select {
+    width: 	100px; /* Adjust width as needed */
+    font-size: 1em; /* Adjust font size as needed */
+}
